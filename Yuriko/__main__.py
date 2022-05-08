@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yurikorobot_IMG = "https://telegra.ph/file/57c0bd2d52ea59166878c.jpg"
+yurikorobot_IMG = "https://te.legra.ph/file/5240578d4bdf606b3e567.jpg"
 
 PM_START_TEXT = """
 *👋 Hello {} !*
@@ -380,7 +380,7 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *VeNoM OP* - `A bot to manage your groups with additional features!`
+            text=""" *SUMIT OP* - `A bot to manage your groups with additional features!`
             \n`Here the basic help regarding use of yurikorobot.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
@@ -433,7 +433,7 @@ def yurikorobot_about_callback(update, context):
                     InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="yurikorobot_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="v3nom_support"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="@famezxworld"),
                     InlineKeyboardButton(text="Cʀᴇᴅɪᴛ", callback_data="girls_boys_chatting10"),
                  ],
                  [
